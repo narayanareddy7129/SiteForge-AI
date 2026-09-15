@@ -8,7 +8,8 @@ load_dotenv()
 
 import zipfile
 import os 
-os.environ['GEMINI_API_KEY'] = os.getenv('gemini') 
+# os.environ['GEMINI_API_KEY'] = os.getenv('gemini') 
+api_key = st.secrets['GEMINI_API_KEY']
 
 # streamlit 
 st.set_page_config(page_title='AI Web Creation',page_icon='🪁')
@@ -48,7 +49,7 @@ Rules:
 
     message.append(('human',prompt))
 
-    model=ChatGoogleGenerativeAI(model='gemini-3.5-flash')
+    model=ChatGoogleGenerativeAI(model='gemini-3.5-flash',google_api_key=api_key)
 
     response = model.invoke(message) 
 
