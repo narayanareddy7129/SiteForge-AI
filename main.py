@@ -49,7 +49,7 @@ Rules:
 
     message.append(('human',prompt))
 
-    model=ChatGoogleGenerativeAI(model='gemini-3.7-flash',google_api_key=api_key)
+    model=ChatGoogleGenerativeAI(model='gemini-3.6-flash',google_api_key=api_key)
 
     response = model.invoke(message) 
 
