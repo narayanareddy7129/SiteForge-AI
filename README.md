@@ -237,4 +237,5 @@ API keys and other credentials are kept out of the repo entirely:
 
 Aspiring AI/ML engineer, interested in machine learning, generative AI, and LLM-powered applications.
 
-If you find this useful, a star on the repo is appreciated.
+- [LinkedIn](https://www.linkedin.com/in/<muvva-lakshmi-narayana-reddy-5933a3299>)
+- [GitHub](https://github.com/<[your-username](narayanareddy7129/Hotel-Booking-Cancellation-Predictor1/blob/2442046d0966db68e21c87fa3aae38e35665913f/app%20interface%20screenshot.png)>)
