@@ -76,12 +76,11 @@ SiteForge-AI/
 ├── web/
 │   └── files/
 │       ├── main.py
-│       ├── requirements.txt
-│       └── ...
+│       └── requirements.txt
+│       
 │
 ├── .gitignore
-├── README.md
-└── ...
+└──  README.md
 ```
 
 ---
